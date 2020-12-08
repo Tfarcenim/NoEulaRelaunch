@@ -1,12 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "tfar.noeularelaunch.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+  "server": [
+    "EulaMixin"
   ],
   "injectors": {
     "defaultRequire": 1
